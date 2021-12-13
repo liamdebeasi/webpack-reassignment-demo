@@ -6,6 +6,10 @@ let Avatar = class extends HTMLElement {
   }
 }
 
+/**
+ * Simplified usage. The real world example looks something like:
+ * Avatar = /*@__PURE__*/ wrapperFn(Avatar);
+ */
 Avatar = Avatar;
 
 export { Avatar };
