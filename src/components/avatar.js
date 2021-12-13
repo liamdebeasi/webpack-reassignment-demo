@@ -8,7 +8,7 @@ let Avatar = class extends HTMLElement {
 
 /**
  * Simplified usage. The real world example looks something like:
- * Avatar = /*@__PURE__*/ wrapperFn(Avatar);
+ * Avatar = [PURE comment] wrapperFn(Avatar);
  */
 Avatar = Avatar;
 

@@ -8,7 +8,7 @@ let Badge = class extends HTMLElement {
 
 /**
  * Simplified usage. The real world example looks something like:
- * Badge = /*@__PURE__*/ wrapperFn(Badge);
+ * Badge = [PURE comment] wrapperFn(Badge);
  */
 Badge = Badge;
 
