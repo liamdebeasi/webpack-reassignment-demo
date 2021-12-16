@@ -16,7 +16,8 @@
   },
   "files": [
     "dist/",
-    "loader/"
+    "loader/",
+    "components/"
   ],
   "scripts": {
     "build": "stencil build --docs",
