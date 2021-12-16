@@ -1,4 +1,4 @@
-import { Badge } from '../components/badge.js';
-import { Avatar } from '../components/avatar.js';
+import { AppBadge } from 'component-library/components/app-badge.js';
+import { AppAvatar } from 'component-library/components/app-avatar.js';
 
-export { Badge, Avatar };
+export { AppBadge, AppAvatar };

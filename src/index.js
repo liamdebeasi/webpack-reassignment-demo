@@ -1,9 +1,9 @@
-import { Badge } from './components-wrapper';
+import { AppBadge } from './components-wrapper';
 
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = Badge;
+  element.innerHTML = AppBadge;
 
   return element;
 }
