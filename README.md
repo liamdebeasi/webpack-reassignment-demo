@@ -2,7 +2,7 @@
 
 ## Steps to reproduce
 
-1. Run `cd component-library && npm run build` to build the Stencil component library.
+1. Run `cd component-library && npm install && npm run build` to build the Stencil component library.
 2. In the `component-library` directory, run `npm pack`.
 3. In the root directory, run `npm install`.
 4. Open `src/index.js`. Observe that only `Badge` is imported.
