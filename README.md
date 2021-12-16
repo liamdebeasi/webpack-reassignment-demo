@@ -5,7 +5,7 @@
 1. Run `cd component-library && npm install && npm run build` to build the Stencil component library.
 2. In the `component-library` directory, run `npm pack`.
 3. In the root directory, run `npm install`.
-4. Open `src/index.js`. Observe that only `Badge` is imported.
+4. Open `src/index.js`. Observe that only `AppBadge` is imported.
 5. Run `npx webpack`.
 6. Run `grep -o -i -E 'Avatar Component|Badge Component' dist/main.js`. This will search the built output for the `"Avatar Component"` and `"Badge Component"` strings. These strings are found in the `app-avatar.js` and `app-badge.js` files and are used to quickly tell if Webpack is bundling the components when building. Observe that both strings appear, meaning both `AppBadge` and `AppAvatar` are bundled with the app.
 7. Update `node_modules/component-library/components/app-badge.js` with the following modifications:
